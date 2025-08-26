@@ -7,6 +7,7 @@ import Footer from "@/components/footer";
 import type { Metadata } from "next";
 import { Toaster } from "@/components/ui/sonner";
 import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
@@ -158,6 +159,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://pub-64d7c9742ee54006ae9f38e02aa8539e.r2.dev/334b26ec-2fb1-4654-af0e-b04e2bab6bc0/script.min.js"
+          data-pid="334b26ec-2fb1-4654-af0e-b04e2bab6bc0"
+          strategy="afterInteractive"
+          async
+        />
+      </head>
       <body className={inter.className}>
         <NextAuthProvider>
           <ThemeProvider
