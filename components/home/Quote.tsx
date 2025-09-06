@@ -26,7 +26,29 @@ export function Quote() {
                 <span className="font-semibold">great</span>{" "}
                 <span className="font-thin">ideas</span>{" "}
                 <span className="font-thin">grow</span>{" "}
-                <span className="font-semibold">faster together...&quot;</span>{" "}
+                <br />
+                <span className="font-semibold">faster together</span>{" "}
+                <span className="inline-block relative">
+                  <span
+                    className="animate-dot-pulse "
+                    style={{ animationDelay: "0s" }}
+                  >
+                    .
+                  </span>
+                  <span
+                    className="animate-dot-pulse "
+                    style={{ animationDelay: "0.2s" }}
+                  >
+                    .
+                  </span>
+                  <span
+                    className="animate-dot-pulse "
+                    style={{ animationDelay: "0.4s" }}
+                  >
+                    .
+                  </span>
+                </span>
+                <span className="font-semibold">&quot;</span>{" "}
               </p>
               {/* <div className="flex gap-1 md:gap-2 lg:gap-3 xl:gap-4">
                 <h1 className="font-semibold">&quot;Connections should be</h1>
