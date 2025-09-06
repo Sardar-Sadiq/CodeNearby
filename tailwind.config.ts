@@ -75,8 +75,6 @@ const config: Config = {
         ripple: "ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite",
         "line-shadow": "line-shadow 15s linear infinite",
         rainbow: "rainbow var(--speed, 2s) infinite linear",
-        "dot-pulse": "dot-pulse 1.2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-        
       },
       keyframes: {
         moveHorizontal: {
@@ -154,10 +152,6 @@ const config: Config = {
           "50%": { bottom: "25%", right: "40%" },
           "90%": { bottom: "50%", right: "25%" },
         },
-        'dot-pulse': {
-          '0%, 100%': { opacity: '0.2' },
-          '50%': { opacity: '1' },
-        }
       },
     },
   },
